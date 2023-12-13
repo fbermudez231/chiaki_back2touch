@@ -360,7 +360,7 @@ inline bool Controller::HandleButtonEvent(SDL_ControllerButtonEvent event) {
 			ps_btn = CHIAKI_CONTROLLER_BUTTON_OPTIONS;
 			break;
 		case SDL_CONTROLLER_BUTTON_BACK:
-			ps_btn = SDL_CONTROLLER_BUTTON_TOUCHPAD;
+			ps_btn = CHIAKI_CONTROLLER_BUTTON_TOUCHPAD;
 			break;
 		case SDL_CONTROLLER_BUTTON_GUIDE:
 			ps_btn = CHIAKI_CONTROLLER_BUTTON_PS;
