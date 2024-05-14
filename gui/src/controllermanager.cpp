@@ -359,7 +359,7 @@ inline bool Controller::HandleButtonEvent(SDL_ControllerButtonEvent event) {
 		case SDL_CONTROLLER_BUTTON_START:
 			ps_btn = CHIAKI_CONTROLLER_BUTTON_OPTIONS;
 			break;
-		#changed
+		#changed to commit
 		case SDL_CONTROLLER_BUTTON_BACK:
 			ps_btn = CHIAKI_CONTROLLER_BUTTON_TOUCHPAD;
 			break;
